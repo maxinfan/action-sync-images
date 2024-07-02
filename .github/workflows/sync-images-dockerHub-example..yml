@@ -22,10 +22,10 @@ jobs:
       with:
         registry: registry.cn-chengdu.aliyuncs.com
         username: maxinfan2009
-        password: Ma$8911593
+        password: Wamcd24!
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-hangzhou.aliyuncs.com/matthew_k8s/sun-panel:1.4.0
+         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/sun-panel:1.4.0
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
