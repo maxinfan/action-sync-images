@@ -30,5 +30,5 @@ jobs:
          skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/sun-panel:1.4.0
          skopeo copy docker://apache/skywalking-java-agent:8.16.0-java11 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/skywalking-java-agent:8.16.0-java11
          skopeo copy docker://docker.io/acryldata/datahub-upgrade:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/datahub-upgrade:head
-         skopeo copy docker://docker.io/acryldata/acryl-datahub-mysql-setup:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryl-datahub-mysql-setup
+         skopeo copy docker://docker.io/acryldata/acryl-datahub-mysql-setup:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryl-datahub-mysql-setup:head
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
