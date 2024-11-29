@@ -33,5 +33,5 @@ jobs:
          skopeo copy docker://docker.io/acryldata/datahub-ingestion:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryldata/datahub-ingestion:head
          skopeo copy docker://docker.io/acryldata/acryl-datahub-mysql-setup:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryl-datahub-mysql-setup:head
          skopeo copy docker://docker.io/amazon/aws-lambda-nodejs:14 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/amazon/aws-lambda-nodejs:14
-         skopeo copy docker://docker.io/node18/alpine:18.19.3 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node18/alpine:18.19.3
+         skopeo copy docker://docker.io/nfqlt/node18 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nfqlt/node18
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
