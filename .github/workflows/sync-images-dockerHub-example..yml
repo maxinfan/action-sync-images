@@ -23,7 +23,7 @@ jobs:
         registry: registry.cn-chengdu.aliyuncs.com
         username: maxinfan2009
         password: Wamcd24!
-        logout: false
+        logout: true
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
