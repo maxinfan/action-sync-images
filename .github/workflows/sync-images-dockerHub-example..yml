@@ -27,11 +27,11 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         #skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/sun-panel:1.4.0
+         skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/sun-panel:1.4.0
          #skopeo copy docker://apache/skywalking-java-agent:8.16.0-java11 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/skywalking-java-agent:8.16.0-java11
          #skopeo copy docker://docker.io/acryldata/datahub-upgrade:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/datahub-upgrade:head
          #skopeo copy docker://docker.io/acryldata/datahub-ingestion:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryldata/datahub-ingestion:head
          #skopeo copy docker://docker.io/acryldata/acryl-datahub-mysql-setup:head docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/acryl-datahub-mysql-setup:head
          #skopeo copy docker://docker.io/amazon/aws-lambda-nodejs:14 docker:/registry.cn-chengdu.aliyuncs.com/matthew_k8s/amazon/aws-lambda-nodejs:14
-         skopeo copy docker://docker.io/node18/alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node18/alpine
+         #skopeo copy docker://docker.io/node18/alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node18/alpine
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
