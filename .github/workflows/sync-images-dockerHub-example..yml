@@ -35,5 +35,6 @@ jobs:
          #skopeo copy docker://docker.io/amazon/aws-lambda-nodejs:14 docker:/registry.cn-chengdu.aliyuncs.com/matthew_k8s/amazon/aws-lambda-nodejs:14
          skopeo copy docker://docker.io/node:18.20.5-alpine3.20 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:18.20.5-alpine3.20
          skopeo copy docker://docker.io/node:16-alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:16-alpine
-         skopeo copy docker://docker.io/nginx:lastest docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nginx:lastest 
+         skopeo copy docker://docker.io/nginx:1.27.3-alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nginx:1.27.3-alpine 
+      
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
