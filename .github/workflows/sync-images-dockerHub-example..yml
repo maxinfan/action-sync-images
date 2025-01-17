@@ -36,5 +36,5 @@ jobs:
          skopeo copy docker://docker.io/node:18.20.5-alpine3.20 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:18.20.5-alpine3.20
          skopeo copy docker://docker.io/node:16-alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:16-alpine
          skopeo copy docker://docker.io/nginx:1.27.3-alpine docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nginx:1.27.3-alpine 
-      
+         skopeo copy docker://docker.io/elasticsearch:8.11.3 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/elasticsearch:8.11.3
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
