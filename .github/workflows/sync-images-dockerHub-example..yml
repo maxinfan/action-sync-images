@@ -39,5 +39,7 @@ jobs:
          skopeo copy docker://docker.io/elasticsearch:8.11.3 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/elasticsearch:8.11.3
          #skopeo copy docker://docker.io/infiniflow/ragflow:v0.15.1-slim docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/ragflow:v0.15.1-slim
          skopeo copy docker://docker.io/mysql:8.0.39 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/mysql:8.0.39
-         skopeo copy docker://docker.io/minio/minio:RELEASE.2023-12-20T01-00-02Z docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/minio:RELEASE.2023-12-20T01-00-02Z       
+         skopeo copy docker://docker.io/minio/minio:RELEASE.2023-12-20T01-00-02Z docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/minio:RELEASE.2023-12-20T01-00-02Z 
+         skopeo copy docker://docker.io/infiniflow/infinity:v0.6.0-dev1 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/infiniflow/infinity:v0.6.0-dev1
+ 
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中
