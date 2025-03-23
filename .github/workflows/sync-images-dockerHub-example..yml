@@ -44,6 +44,8 @@ jobs:
          skopeo copy docker://docker.io/infiniflow/ragflow:v0.15.1-slim  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/ragflow:v0.15.1-slim
          skopeo copy docker://docker.io/valkey/valkey:8-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/valkey:8-alpine
          skopeo copy docker://docker.io/redis:8.0-M04-alpine3.21  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/redis:8.0-M04-alpine3.21
+         skopeo copy docker://docker.io/rabbitmq:4.0.7-management-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/rabbitmq:4.0.7-management-alpine
+         
       #
       #
       
