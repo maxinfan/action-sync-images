@@ -47,6 +47,7 @@ jobs:
          skopeo copy docker://docker.io/rabbitmq:4.0.7-management-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/rabbitmq:4.0.7-management-alpine
          skopeo copy docker://docker.io/lanzhihong/stock-scanner:latest  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/stock-scanner:latest
          
+         
       #
       #
       
