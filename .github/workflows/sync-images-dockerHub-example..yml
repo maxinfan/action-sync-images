@@ -49,6 +49,8 @@ jobs:
          skopeo copy docker://docker.io/openjdk:17  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:17
          skopeo copy docker://docker.io/anapsix/alpine-java:8u202b08_server-jre_nashorn  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/alpine-java:8u202b08_server-jre_nashorn
          skopeo copy docker://docker.io/openjdk:8u92-jdk-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:8u92-jdk-alpine
+         skopeo copy docker://docker.io/node:20.19.1-alpine3.21  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:20.19.1-alpine3.21
+
        
       
       #
