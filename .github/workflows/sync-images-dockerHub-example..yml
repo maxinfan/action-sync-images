@@ -51,6 +51,9 @@ jobs:
          skopeo copy docker://docker.io/openjdk:8u92-jdk-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:8u92-jdk-alpine
          skopeo copy docker://docker.io/node:20.19.1-alpine3.21  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:20.19.1-alpine3.21
          skopeo copy docker://docker.io/node:22.15.0  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:22.15.0
+         skopeo copy docker://docker.getcollate.io/openmetadata/db:1.5.6  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/db:1.5.6
+         skopeo copy docker://docker.getcollate.io/openmetadata/server:1.5.6  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/server:1.5.6
+         skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.5.6  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/ingestion:1.5.6
          
         
        
