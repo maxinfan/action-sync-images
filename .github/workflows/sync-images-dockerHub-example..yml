@@ -55,6 +55,7 @@ jobs:
          skopeo copy docker://docker.getcollate.io/openmetadata/server:1.5.6  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/server:1.5.6
          skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.5.6  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/ingestion:1.5.6
          skopeo copy docker://docker.io/python:3.11-slim docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/python:3.11-slim
+         skopeo copy docker://docker.io/circleci/openjdk:8u312-jdk-buster-node-browsers-legacy docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:8u312-jdk-buster-node-browsers-legacy
         
        
       
