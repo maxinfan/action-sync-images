@@ -57,6 +57,7 @@ jobs:
          skopeo copy docker://docker.io/python:3.11-slim docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/python:3.11-slim
          skopeo copy docker://docker.io/circleci/openjdk:8u312-jdk-buster-node-browsers-legacy docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:8u312-jdk-buster-node-browsers-legacy
          skopeo copy docker://docker.io/eclipse-temurin:8u462-b08-jdk docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/eclipse-temurin:8u462-b08-jdk
+         skopeo copy docker://docker.io/datajuicer/data-juicer:v1.4.3 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/data-juicer:v1.4.3
 
         
        
