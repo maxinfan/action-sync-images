@@ -46,7 +46,6 @@ jobs:
          skopeo copy docker://docker.io/redis:8.0-M04-alpine3.21  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/redis:8.0-M04-alpine3.21
          skopeo copy docker://docker.io/rabbitmq:4.0.7-management-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/rabbitmq:4.0.7-management-alpine
          skopeo copy docker://docker.io/lanzhihong/stock-scanner:latest  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/stock-scanner:latest
-         skopeo copy docker://docker.io/openjdk:17  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:17
          skopeo copy docker://docker.io/anapsix/alpine-java:8u202b08_server-jre_nashorn  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/alpine-java:8u202b08_server-jre_nashorn
          skopeo copy docker://docker.io/openjdk:8u92-jdk-alpine  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:8u92-jdk-alpine
          skopeo copy docker://docker.io/node:20.19.1-alpine3.21  docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/node:20.19.1-alpine3.21
