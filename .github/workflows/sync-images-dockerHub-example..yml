@@ -59,6 +59,7 @@ jobs:
          skopeo copy docker://docker.io/datajuicer/data-juicer:v1.4.3 docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/data-juicer:v1.4.3
          skopeo copy docker://docker.io/organizr/organizr:latest docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/organizr:latest
          skopeo copy docker://docker.io/nocodb/nocodb:latest docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nocodb:latest
+         skopeo copy docker://docker.io/openjdk:17.0.2-jdk-slim docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:17.0.2-jdk-slim
 
 
         
