@@ -60,6 +60,8 @@ jobs:
          skopeo copy docker://docker.io/organizr/organizr:latest docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/organizr:latest
          skopeo copy docker://docker.io/nocodb/nocodb:latest docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/nocodb:latest
          skopeo copy docker://docker.io/openjdk:17.0.2-jdk-slim docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/openjdk:17.0.2-jdk-slim
+         skopeo copy docker://docker.io/continuumio/anaconda3:main docker://registry.cn-chengdu.aliyuncs.com/matthew_k8s/anaconda3:main
+         
 
 
         
